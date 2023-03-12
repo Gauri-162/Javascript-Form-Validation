@@ -1,0 +1,36 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.main {
+    margin: auto;
+    width: 500px;
+    cursor: pointer;
+    border: 1px black;
+    margin-bottom: 100px;    
+}
+
+.container {
+    padding: 20px;   
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form-group {
+    padding : 10px
+}
+
